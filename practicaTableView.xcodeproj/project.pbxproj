@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D20BC762551F8AC00F793E3 /* Alumno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D20BC752551F8AC00F793E3 /* Alumno.swift */; };
+		3D20BC79255204F000F793E3 /* CeldaAlumnoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D20BC78255204F000F793E3 /* CeldaAlumnoController.swift */; };
 		3DEA45B72551F2AB00E019B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEA45B62551F2AB00E019B2 /* AppDelegate.swift */; };
 		3DEA45B92551F2AB00E019B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEA45B82551F2AB00E019B2 /* SceneDelegate.swift */; };
 		3DEA45BB2551F2AB00E019B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEA45BA2551F2AB00E019B2 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D20BC752551F8AC00F793E3 /* Alumno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alumno.swift; sourceTree = "<group>"; };
+		3D20BC78255204F000F793E3 /* CeldaAlumnoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaAlumnoController.swift; sourceTree = "<group>"; };
 		3DEA45B32551F2AB00E019B2 /* practicaTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practicaTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DEA45B62551F2AB00E019B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DEA45B82551F2AB00E019B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D20BC722551F80500F793E3 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				3DEA45C12551F2AC00E019B2 /* LaunchScreen.storyboard */,
+				3DEA45BC2551F2AB00E019B2 /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		3D20BC742551F87B00F793E3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D20BC752551F8AC00F793E3 /* Alumno.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3D20BC772551F8DD00F793E3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3DEA45BA2551F2AB00E019B2 /* ViewController.swift */,
+				3D20BC78255204F000F793E3 /* CeldaAlumnoController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		3DEA45AA2551F2AB00E019B2 = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +86,12 @@
 		3DEA45B52551F2AB00E019B2 /* practicaTableView */ = {
 			isa = PBXGroup;
 			children = (
+				3D20BC772551F8DD00F793E3 /* Controllers */,
+				3D20BC742551F87B00F793E3 /* Model */,
+				3D20BC722551F80500F793E3 /* Storyboard */,
 				3DEA45B62551F2AB00E019B2 /* AppDelegate.swift */,
 				3DEA45B82551F2AB00E019B2 /* SceneDelegate.swift */,
-				3DEA45BA2551F2AB00E019B2 /* ViewController.swift */,
-				3DEA45BC2551F2AB00E019B2 /* Main.storyboard */,
 				3DEA45BF2551F2AC00E019B2 /* Assets.xcassets */,
-				3DEA45C12551F2AC00E019B2 /* LaunchScreen.storyboard */,
 				3DEA45C42551F2AC00E019B2 /* Info.plist */,
 			);
 			path = practicaTableView;
@@ -141,6 +171,8 @@
 				3DEA45BB2551F2AB00E019B2 /* ViewController.swift in Sources */,
 				3DEA45B72551F2AB00E019B2 /* AppDelegate.swift in Sources */,
 				3DEA45B92551F2AB00E019B2 /* SceneDelegate.swift in Sources */,
+				3D20BC762551F8AC00F793E3 /* Alumno.swift in Sources */,
+				3D20BC79255204F000F793E3 /* CeldaAlumnoController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
